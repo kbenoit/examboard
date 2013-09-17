@@ -5,7 +5,10 @@ Award MSc degree marks according to LSE rules outlined in http://www.lse.ac.uk/r
 
 Program file
 ------------
-This is the file [MSc_exam_board.do](https://github.com/kbenoit/examboard/blob/master/MSc_exam_board.do) which is written in Stata 11.  You will need to modify this file to make it work for your own exam board.
+This is the file [MSc_exam_board.do](https://github.com/kbenoit/examboard/blob/master/MSc_exam_board.do) which is written in Stata 11.  
+You will need to modify this file to make it work for your own exam board.
+Modifications are clearly indicated in the code comments and especially where it states "LOCAL RULES".
+
 
 Input data
 ----------
