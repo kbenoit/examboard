@@ -20,7 +20,9 @@ for example data.
 
 output data
 -----------
-Set by the global *output_excel_filename*.
+Set by the global *output_excel_filename*, this produces an Excel spreadsheet with the mark results, auxiliary information, 
+and indications of who was top (or tied for top) in both the distiction marks categories (*bestovrl*) and best dissertation prize
+(*bestdiss*).
 
 
 contributors
