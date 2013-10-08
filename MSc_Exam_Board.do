@@ -198,8 +198,15 @@ replace rule = "5.3.3f" if (totalmeritorhigherunits >= 3.0) & rule==""
 // JK
 // replace award = 4 if (totaldistinctionunits >= 0.5 & totalmeritunits >= 2.0) & award==.
 // replace rule = "5.3.3g" if (totaldistinctionunits >= 0.5 & totalmeritunits >= 2.0) & rule==""
+// -- Change below suggested by Sam Colegate from Geography
 replace award = 4 if (totaldistinctionunits >= 0.5 & totalmeritorhigherunits >= 2.5) & award==.
 replace rule = "5.3.3g" if (totaldistinctionunits >= 0.5 & totalmeritorhigherunits >= 2.5) & rule==""
+//
+// JK: This is the one where I mentioned the rule itself is poorly worded. 
+//     The question is: What happens to a student who gets 1D + 1.5M or 1.5D + 1M? 
+//     With the first bit of code these are covered by 5.3.3g, as they clearly should (since they are strictly 
+//     better than 0.5D + 2M, which is the only case that a literal reading of 5.3.3g seems to cover). 
+//     Otherwise they are not.
 
 
 // 5.3.4 Merit or Pass according to local rules
